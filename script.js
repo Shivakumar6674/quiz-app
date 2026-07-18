@@ -45,7 +45,7 @@ function checkAnswer(selected) {
         loadQuestion();
     } else {
         document.querySelector(".quiz-container").innerHTML =
-            `<h2>Quiz Finished!</h2>
+            `<h2>Quiz Finished! well done</h2>
              <p>Your Score: ${score}/${quizData.length}</p>`;
     }
 
